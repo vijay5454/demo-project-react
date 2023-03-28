@@ -158,6 +158,9 @@ Navbar
 .navbar-center a {
   display: none;
 }
+.active {
+  color: var(--clr-primary-light);
+}
 
 @media screen and (min-width: 500px) {
   .navbar-center a {
@@ -216,6 +219,7 @@ About Page
 */
 .about {
   height: 92vh;
+  background: var(--clr-gradient);
 }
 .underline {
   display: block;
@@ -234,3 +238,7 @@ About Page
 Contact Page
 ===============
 */
+.contact {
+  background: var(--clr-gradient);
+  height: 92vh;
+}
