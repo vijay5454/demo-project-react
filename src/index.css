@@ -153,6 +153,7 @@ Navbar
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
   /* border: 1px solid red; */
 }
 .navbar-center a {
@@ -160,6 +161,11 @@ Navbar
 }
 .active {
   color: var(--clr-primary-light);
+}
+.navbar-center i {
+  font-size: 2rem;
+  position: absolute;
+  right: 90%;
 }
 
 @media screen and (min-width: 500px) {
@@ -176,7 +182,16 @@ Navbar
   .navbar-center a:hover {
     background: var(--clr-primary-light);
   }
+  .navbar-center i {
+    display: none;
+  }
 }
+
+/*
+=============== 
+Sidebar
+===============
+*/
 
 /*
 =============== 
