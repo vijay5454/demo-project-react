@@ -2,8 +2,10 @@ const About = () => {
   return (
     <section className="about">
       <div className="section-center">
-        <h1>About Us</h1>
-        <span className="underline"></span>
+        <div className="page-heading">
+          <h1>About Us</h1>
+          <span className="underline"></span>
+        </div>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iure
           perferendis dolores nihil tenetur nisi, est dolor odio quos repellat

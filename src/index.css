@@ -221,14 +221,12 @@ About Page
   display: block;
   background: var(--clr-primary-light);
   height: 2px;
-  max-width: 225px;
   margin: 0;
   margin-bottom: 2rem;
+  width: 80%;
 }
-@media screen and (min-width: 800px) {
-  .underline {
-    max-width: 290px;
-  }
+.page-heading {
+  width: 300px;
 }
 
 /*
@@ -236,11 +234,3 @@ About Page
 Contact Page
 ===============
 */
-.contact span {
-  max-width: 190px;
-}
-@media screen and (min-width: 800px) {
-  .contact span {
-    max-width: 245px;
-  }
-}
