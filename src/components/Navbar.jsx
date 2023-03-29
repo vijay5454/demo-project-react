@@ -1,16 +1,21 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import SideBar from "./Sidebar";
 
 const Navbar = () => {
   return (
     <>
       <nav className="Navbar">
         <div className="navbar-center">
-          <i class="fa-solid fa-bars"></i>
+          <button className="btn">
+            <FaBars />
+          </button>
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
           <NavLink to="contact">Contact</NavLink>
         </div>
       </nav>
+      <SideBar />
       <Outlet />
     </>
   );

@@ -4,19 +4,19 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SideBar from "./components/Sidebar";
+import Error from "./pages/Error";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Navbar />}>
-            <Route index element={<Home />}></Route>
-            <Route path="about" element={<About />}></Route>
-            <Route path="contact" element={<Contact />}></Route>
-          </Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="*" element={<Error />}></Route>
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
