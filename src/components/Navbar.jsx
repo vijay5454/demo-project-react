@@ -16,7 +16,6 @@ const Navbar = () => {
         </div>
       </nav>
       <SideBar />
-      <Outlet />
     </>
   );
 };
