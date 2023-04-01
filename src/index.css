@@ -215,8 +215,8 @@ Sidebar
 }
 aside a {
   font-size: 2rem;
+  letter-spacing: var(--spacing);
 }
-
 /*
 =============== 
 Home Page
