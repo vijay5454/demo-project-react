@@ -281,3 +281,12 @@ Contact Page
   background: var(--clr-gradient);
   height: 92vh;
 }
+/* .account-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.account-details-list {
+  border: 1px solid red;
+  width: 60%;
+} */
