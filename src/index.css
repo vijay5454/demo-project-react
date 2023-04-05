@@ -280,6 +280,7 @@ Contact Page
 .contact {
   background: var(--clr-gradient);
   height: 92vh;
+  overflow: auto;
 }
 /* .account-details {
   display: flex;
@@ -290,3 +291,37 @@ Contact Page
   border: 1px solid red;
   width: 60%;
 } */
+.form-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input-container {
+  width: calc(100% - 20px);
+  margin-top: 1rem;
+  text-align: left;
+}
+.input-container input {
+  width: 100%;
+  height: 2rem;
+}
+.input-detail {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.form-container button {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 512px) {
+  .input-container {
+    width: calc(100% / 2 - 20px);
+  }
+}
