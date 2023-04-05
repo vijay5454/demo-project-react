@@ -282,15 +282,6 @@ Contact Page
   height: 92vh;
   overflow: auto;
 }
-/* .account-details {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.account-details-list {
-  border: 1px solid red;
-  width: 60%;
-} */
 .form-container {
   width: 100%;
   max-width: 700px;
